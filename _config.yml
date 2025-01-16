@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .business-card {
+            width: 350px;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+            background-color: #333;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #777;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #aaa;
+        }
+        .contact {
+            text-align: left;
+        }
+        .contact div {
+            margin-bottom: 10px;
+        }
+        .contact span {
+            display: inline-block;
+            width: 80px;
+            font-weight: bold;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="business-card">
+
+        <div class="name">
+          <img src="tce.png" width="340" height="50" alt=""/>
+          <p>IRFAN KALKAN</p>
+        </div>
+        <div class="title">CTO&nbsp;</div>
+        <div class="contact">
+            <div><span>Email:</span> &nbsp;irfan@tcentertainmentonline.com</div>
+            <div><span>Phone:</span> +90 533 *** ** **</div>
+            <div><span>Skype:</span> irfan-kalkan</div>
+            <div><span>Website:</span> tcentertainmentglobal.com</div>
+      </div>
+</div>
+</body>
+</html>
